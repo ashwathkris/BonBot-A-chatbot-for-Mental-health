@@ -1,6 +1,6 @@
 # BonBot-A-chatbot-for-Mental-health
 
-STEPS TO EXECUTE THE CHATBOT:
+# STEPS TO EXECUTE THE CHATBOT:
 
 (1) Unzip the two zip files.(src and public)
 
