@@ -8,10 +8,14 @@
     >> npm install
     
 (3) Execute this statement to start the local react server:
+    '''python
     >> npm start
+    '''
     
 (4) Run the following command to run the FLASK API:
+    '''python
     >> py final.py
+    '''
     
 ### Demo : To watch the video, [Click Here](https://youtu.be/ARw1DvzMrKM)
 
