@@ -21,5 +21,5 @@
     >py final.py
     ```
     
-### Demo : To watch the video, [Click Here](https://youtu.be/ARw1DvzMrKM)
+### Demo : To see the working of the chatbot, [Click Here](https://youtu.be/ARw1DvzMrKM)
 
