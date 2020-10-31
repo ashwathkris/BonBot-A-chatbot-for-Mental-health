@@ -1,0 +1,105 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["See ya! Talk to you later", "Goodbye and take care!", "Goodbye! Have a great day!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["who is this","what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me BonBot!!"],
+         "context_set": ""
+        },
+        {"tag": "skills",
+         "patterns": ["tell me about yourself","what do you do", "how can you help me","how do you work"],
+         "responses": ["I am a chat-based tool, that addresses many of today's mental health challenges, from generalized anxiety and depression to specific conditions like adolescent depression and substance abuse."],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["Your contact number", "Where can we find you", "how do i reach you", "are you on social media","what's your insta?"],
+         "responses": ["You can find me at BonBot.ai"],
+         "context_set": ""
+        },
+        {
+        "tag" : "symptoms of Depression",
+        "patterns":["What are the symptoms of Depression?","depression symptoms","Effects of Depression"],
+        "responses":["Symptoms of Depression include insomnia, restlessness, irritability, reduced interest in activities that are normally pleasurable, fatigue and suicidal thoughts.\nWas this helpful?"],
+        "context_set":""
+        },
+        {"tag": "symptoms of anxiety",
+         "patterns": ["What are the symptoms of Anxiety?","anxiety symptoms","Effects of Anxiety"],
+         "responses": ["Symptoms of anxiety include stress that's out of proportion to the impact of the event, inability to set aside a worry and restlessness.\nWas this helpful?"],
+         "context_set": ""
+        },
+        {
+        "tag" : "depression",
+        "patterns":["Why am I feeling depressed","I am really unhappy and sad", "I'm feeling lonely and helpless", "Why am i getting so many sad thoughts"],
+        "responses":["Hey, you're not alone. I may not understand exactly how you're feeling but i know that you're not alone. Call up a friend or a close family member and talk to them. That will really help. Drink a lot of water and meditate and think about all the good things in life. "],
+        "context_set":""
+        },
+        {
+        "tag" : "what is depression",
+        "patterns":["What is Depression?", "Depression", "What causes depression", "Why do i have depression"],
+        "responses":["Depression is a mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."],
+        "context_set":""
+        },
+        {
+        "tag" : "anxiety",
+        "patterns":["What is Anxiety?","Why am I feeling Anxious","Anxiety?","I am feeling restless","I am short of breath"],
+        "responses":["Anxiety is your body's natural response to stress. It's a feeling of fear about what's to come. But there are ways to overcome it, try taking a walk or counting to 10 slowly.\nWas this helpful?"],
+        "context_set":""
+        },
+        {
+        "tag" : "Remedies for anxiety",
+        "patterns":["How do I cure anxiety","What can I do to make my anxiety go away","How do I stop feeling anxious","Is there any way i can stop anxiety","how to treat anxiety","does anxiety have a cure?"],
+        "responses":["Anxiety can be cured. Don't worry. Start by exercising everyday, drinking a lot of water and eating healthy. Try meditation and deep breathing. Most importantly, get sufficient sleep. Try to avoid alcohol, smoking and caffine as much as possible. You will notice a difference in you mental state within a couple of days.\nWas this helpful?"],
+        "context_set":""
+        },
+        {
+        "tag" : "Death",
+        "patterns":["How do i cope with death?","my mother died","i lost my best friend","i lost my father","my friend passed away","my uncle passed away in a car accident", "I'm grieving the loss of a friend"],
+        "responses":["This is really hard, and I'm so sorry for your loss. It's natural to feel some anxiety after losing a loved one. In fact, people often feel a range of emotions. Sadness, guilt, as well as anxiety. Some important things you can do: Talk to friends. Try and share your feelings with the people close to you.\nWas this helpful?"],
+        "context_set":""
+        },
+        {"tag" : "suicide",
+         "patterns":["should i die?","i want to like killing myself", "i dont feel like living anymore","im suicidal", "I'm done with life"],
+         "responses":["suicide is a very traumatic loss and affects survivors significantly. Never take the extreme step as this is not the end of your road. If you’re experiencing suicidal thoughts, you should seek help right away. Contact your doctor or use this helpline- 9152987821\nWas this helpful?"],
+         "context_set":""
+        },
+        {
+        "tag" : "emergency",
+        "patterns":["im panicking ", "I think im having a panic attack", "I need help asap" ],
+        "responses":["Calm down. Take a deep breath. Everything will be alright. Close your eyes and breathe normally. There's nothing to worry about.\nWas this helpful?"],
+        "context_set":""
+        },
+        {
+        "tag" : "yesreply",
+        "patterns":["yes","s","yep","yeah","thank you","thanks","thanks a lot", "I'm glad you're here"],
+        "responses":["Glad I could help!"],
+        "context_set":""
+        },
+        {
+        "tag" : "noreply",
+        "patterns":["no","nah","nope","you suck","you're the worst","not really", "I hate you"],
+        "responses":["I'm really sorry. I try my best to help"],
+        "context_set":""
+        },
+        {
+                "tag" : "sad",
+                "patterns":["I am feeling low","I'm feeling sad","I had a bad day","Today was the worst"],
+                "responses":["It's normal to feel sad. To feel sad is to be a human. We all have our good days and our bad days. Drinking a lot of water and taking walks really helps."],
+                "context_set":""
+        },
+        {
+                "tag" : "demotivated",
+                "patterns":["I dont feel like doing anything","I feel like a loser","I'm demotivated","I feel burned out","tired","I dont want to study"],
+                "responses":[" The harder you work for something, the greater you’ll feel when you achieve it. Keep pushing forward. Also, there's nothing wrong with taking a break. We all need breaks to function efficiently. Good Luck!"],
+                "context_set":""
+        }
+
+   ]
+}
